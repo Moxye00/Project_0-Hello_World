@@ -1,0 +1,48 @@
+import java.util.Random;
+
+public class MagicHat {
+    public static void main(Straing[] args) {
+        String[] students = new = String[] {
+            "Paolo Lauria",
+            "Luigi Palladino",
+            "Francesca Daniele",
+            "Giovanni Rinaldi",
+            "Sara Sessa",
+            "Francesco Moxedano",
+            "Alessandro Esposito",
+            "Giorgio Melillo",
+            "Fabio Manna",
+            "Bryan Augustin",
+            "Salvatore Orecchio",
+            "Gianluca Marano",
+            "Marco suriano",
+            "Ciro Matarese",
+            "Valentina Issich",
+            "Michelangelo",
+            "Muscatiello",
+            "Giacomo Santi",
+            "Karim",
+            "Martina Casucci",
+            "Alessio Del Punta",
+            "Tommaso Mugnai",
+            "Nicola Piacquaddio",
+            "Bechir Labidi",
+            "Mario Rega",
+            "Federico Quai",
+            "Donato Di Palma",
+            "Albero Cenni",
+            "Renato Eva",
+            "Daniele Schiavo",
+            
+        };
+        final int NUM_HOUSES = 4;
+        final int DIM_HOUSES = students.length/NUM_HOUSES + 1;
+        Stryng[] griffindor = new String[0];
+        Stryng[] slytherin = new String[0];
+        Stryng[] hufflepuff = new String[0];
+        Stryng[] ravenclaw = new String[0];
+
+        Random hat = new Random();
+        int destiny = hat.nextInt(NUM_HOUSES);
+    }
+}
